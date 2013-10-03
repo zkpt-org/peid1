@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}Intervention{% endblock %}
+
+{% block javascript %}
+<script type="text/javascript" src="{{STATIC_URL}}styles/kendo/js/kendo.core.min.js" ></script>
+<script type="text/javascript" src="{{STATIC_URL}}styles/kendo/js/kendo.userevents.min.js" ></script>
+<script type="text/javascript" src="{{STATIC_URL}}styles/kendo/js/kendo.numerictextbox.min.js" ></script>
+{% endblock %}
+
+{% block css %}
+<link type="text/css" rel="stylesheet" href="{{STATIC_URL}}styles/kendo/styles/kendo.default.min.css" >
+<link type="text/css" rel="stylesheet" href="{{STATIC_URL}}styles/kendo/styles/kendo.common.min.css" >
+{% endblock %}
+
+{% block content %}
+<ul class="nav nav-tabs tab-box">
+    <li class="active">
+        <a href="#intervention-builder-1" data-target="#intervention-builder-1" ><i class="icon-trophy"></i> Challenge Designer</a>
+    </li>
+    <li>
+        <a href="#intervention-builder-2" data-target="#intervention-builder-2" ><i class="icon-bullhorn"></i> Message Builder</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    {% include 'intervention/tab1.html' %}
+    {% include 'intervention/tab2.html' %}
+
+</div>
+
+{% endblock %}

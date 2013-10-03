@@ -1,0 +1,80 @@
+<div id="intervention-builder-2" class="tab-pane tabbed-box">
+    {% include 'intervention/filters.html' %}
+    <div class="control-group" id="message-content">
+        <table>
+        <tr>
+            <th>Message Conent</th>
+            <th></th>
+            <th></th>
+            <th>Message Media</th>
+        </tr>
+        <tr>
+        <td>
+        <fieldset class="controls pull-left">
+            <label class="checkbox">
+            <input type="checkbox" name="content-0" id="check-0" value="recognition" onchange="CalculateScore(2);" /> Recognition
+            </label>
+            <label class="checkbox">
+            <input type="checkbox" name="content-1" id="check-1" value="empathy" onchange="CalculateScore(2);" /> Empathy
+            </label>
+            <label class="checkbox">
+            <input type="checkbox" name="content-2" id="check-2" value="motivation" onchange="CalculateScore(2);" /> Motivational
+            </label>
+            <label class="checkbox">
+            <input type="checkbox" name="content-3" id="check-3" value="confidence" onchange="CalculateScore(2);" /> Building Confidence
+            </label>
+        </fieldset>
+        </td>
+        <td>
+        <fieldset class="controls">
+            <label class="checkbox">
+            <input type="checkbox" name="content-4" id="check-4" value="reminder" onchange="CalculateScore(2);" /> Reminder
+            </label>
+            <label class="checkbox">
+            <input type="checkbox" name="content-5" id="check-5" value="education" onchange="CalculateScore(2);" /> Education
+            </label>
+            <label class="checkbox">
+            <input type="checkbox" name="content-6" id="check-6" value="infotainment" onchange="CalculateScore(2);" /> Infotainment
+            </label>
+            <label class="checkbox">
+            <input type="checkbox" name="content-7" id="check-7" value="opinion" onchange="CalculateScore(2);" /> Seeking Opinion
+            </label>
+        </fieldset>
+        </td>
+        <td class="operators">+</td>
+        <td>
+        <fieldset class="controls">
+            <label class="checkbox">
+            <input type="checkbox" name="media-0" id="check-8" value="email" onchange="CalculateScore(2);" /> Email
+            </label>
+            <label class="checkbox">
+            <input type="checkbox" name="media-1" id="check-9" value="phone" onchange="CalculateScore(2);" /> Phone call
+            </label>
+            <label class="checkbox">
+            <input type="checkbox" name="media-2" id="check-10" value="text" onchange="CalculateScore(2);" /> Text message
+            </label>
+        </fieldset>
+        </td>
+        <td class="operators">=</td>
+        <td id="result-box-2">
+            <br />
+            <div id="result-2" class="circle large">
+                <div id="lift-box">
+                    <div id="lift">0</div>
+                </div>
+            </div>
+        </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <div class="small" id="lift-label">lift in engagement</div>
+            </td>
+        </tr>
+    </table>
+    </div>
+</div>

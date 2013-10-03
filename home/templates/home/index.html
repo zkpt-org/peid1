@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}At a Glance{% endblock %}
+
+{% block javascript %}
+	<script type="text/javascript" src="{{STATIC_URL}}js/gauge-white.js"></script>
+{% endblock %}
+
+{% block css %}{% endblock %}
+
+{% block content %}
+	{% include 'alerts_box.html' %}
+	{% include 'filters.html' %}
+	{% include 'dial_panel.html' %}
+	{% include 'graph.html' %}
+{% endblock %}
+

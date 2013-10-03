@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block title %}Benchmarks{% endblock %}
+
+{% block javascript %}
+	<script type="text/javascript" src="{{STATIC_URL}}js/bullet.js"></script>
+	<script type="text/javascript" src="{{STATIC_URL}}js/{{page}}.js"></script>
+{% endblock %}
+
+{% block css %}{% endblock %}
+
+{% block content %}
+	{% include 'filters.html' %}
+    <div id="graph-1">
+        <div class="show-hide-toggle">
+            <a href="javascript:;" onclick="fold('#graph-1');">
+            <i class=icon-caret-down></i></a>
+            <hr/>
+        </div>
+        <div class="hide">
+            <h3>Engagement</h3>
+            <div id="engagement" class="box"></div>
+        </div>
+    </div>
+    
+    <div id="graph-2">
+        <div class="show-hide-toggle">
+            <a href="javascript:;" onclick="fold('#graph-2');">
+            <i class=icon-caret-down></i></a>
+            <hr/>
+        </div>
+        <div class="hide">
+            <h3>Activity</h3>
+            <div id="activity" class="box"></div>
+        </div>
+    </div>
+    
+    <div id="graph-3">
+        <div class="show-hide-toggle">
+            <a href="javascript:;" onclick="fold('#graph-3');">
+            <i class=icon-caret-down></i></a>
+            <hr/>
+        </div>
+        <div class="hide">
+            <h3>Outcomes</h3>
+            <div id="outcomes" class="box"></div>
+        </div>
+    </div>	
+{% endblock %}

@@ -1,0 +1,276 @@
+[
+{  
+  "engagement" :[
+  {
+  "title":"Pedometer",
+  "subtitle":"Percentage Using",
+  "ranges":[100],
+  "measures":[100,62.0],
+  "markers":[62]},
+  {
+  "title":"Weight",
+  "subtitle":"Percentage Measuring",
+  "ranges":[100],
+  "measures":[100,48],
+  "markers":[48]}
+  ,
+  {
+  "title":"Logins",
+  "subtitle":"Percentage Loggin In",
+  "ranges":[100],
+  "measures":[100,54],
+  "markers":[54]
+  }
+  ],
+  "activity" : [
+  {
+  "title":"Tracker 1",
+  "ranges":[100],
+  "measures":[100,44],
+  "markers":[44]
+  },
+  {
+  "title":"Tracker 2",
+  "ranges":[100],
+  "measures":[100,35],
+  "markers":[35]
+  },
+  {
+  "title":"Tracker 3",
+  "ranges":[100],
+  "measures":[100,57],
+  "markers":[57]
+  }
+  ],
+  "outcomes" : [
+  {
+  "title":"BMI",
+  "subtitle":"Average Change",
+  "ranges":[2],
+  "measures":[2,0.5],
+  "markers":[0.5]
+  },
+  {
+  "title":"Diastolic BP",
+  "subtitle":"Average Change",
+  "ranges":[2],
+  "measures":[2,0.34],
+  "markers":[0.34]
+  },
+  {
+  "title":"Systolic BP",
+  "subtitle":"Average Change",
+  "ranges":[2],
+  "measures":[2,0.26],
+  "markers":[0.26]
+  }
+  ]  
+},
+
+{  
+  "engagement" :[
+  {
+  "title":"Pedometer",
+  "subtitle":"Percentage Using",
+  "ranges":[100],
+  "measures":[100,70.0],
+  "markers":[62]},
+  {
+  "title":"Weight",
+  "subtitle":"Percentage Measuring",
+  "ranges":[100],
+  "measures":[100,40],
+  "markers":[48]}
+  ,
+  {
+  "title":"Logins",
+  "subtitle":"Percentage Loggin In",
+  "ranges":[100],
+  "measures":[100,57.7],
+  "markers":[54]
+  }
+  ],
+  "activity" : [
+  {
+  "title":"Tracker 1",
+  "ranges":[100],
+  "measures":[100,40],
+  "markers":[44]
+  },
+  {
+  "title":"Tracker 2",
+  "ranges":[100],
+  "measures":[100,51],
+  "markers":[35]
+  },
+  {
+  "title":"Tracker 3",
+  "ranges":[100],
+  "measures":[100,42],
+  "markers":[57]
+  }
+  ],
+  "outcomes" : [
+  {
+  "title":"BMI",
+  "subtitle":"Average Change",
+  "ranges":[2],
+  "measures":[2,0.3],
+  "markers":[0.5]
+  },
+  {
+  "title":"Diastolic BP",
+  "subtitle":"Average Change",
+  "ranges":[2],
+  "measures":[2,0.4],
+  "markers":[0.34]
+  },
+  {
+  "title":"Systolic BP",
+  "subtitle":"Average Change",
+  "ranges":[2],
+  "measures":[2,0.3],
+  "markers":[0.26]
+  }
+  ]  
+},
+
+
+{  
+  "engagement" :[
+  {
+  "title":"Pedometer",
+  "subtitle":"Percentage Using",
+  "ranges":[100],
+  "measures":[100,60.0],
+  "markers":[62]},
+  {
+  "title":"Weight",
+  "subtitle":"Percentage Measuring",
+  "ranges":[100],
+  "measures":[100,35],
+  "markers":[48]}
+  ,
+  {
+  "title":"Logins",
+  "subtitle":"Percentage Loggin In",
+  "ranges":[100],
+  "measures":[100,55],
+  "markers":[54]
+  }
+  ],
+  "activity" : [
+  {
+  "title":"Tracker 1",
+  "ranges":[100],
+  "measures":[100,30],
+  "markers":[44]
+  },
+  {
+  "title":"Tracker 2",
+  "ranges":[100],
+  "measures":[100,66],
+  "markers":[35]
+  },
+  {
+  "title":"Tracker 3",
+  "ranges":[100],
+  "measures":[100,43],
+  "markers":[57]
+  }
+  ],
+  "outcomes" : [
+  {
+  "title":"BMI",
+  "subtitle":"Average Change",
+  "ranges":[2],
+  "measures":[2,0.3],
+  "markers":[0.5]
+  },
+  {
+  "title":"Diastolic BP",
+  "subtitle":"Average Change",
+  "ranges":[2],
+  "measures":[2,0.2],
+  "markers":[0.34]
+  },
+  {
+  "title":"Systolic BP",
+  "subtitle":"Average Change",
+  "ranges":[2],
+  "measures":[2,0.18],
+  "markers":[0.26]
+  }
+  ]  
+},
+
+{  
+  "engagement" :[
+  {
+  "title":"Pedometer",
+  "subtitle":"Percentage Using",
+  "ranges":[100],
+  "measures":[100,56.0],
+  "markers":[62]},
+  {
+  "title":"Weight",
+  "subtitle":"Percentage Measuring",
+  "ranges":[100],
+  "measures":[100,42],
+  "markers":[48]}
+  ,
+  {
+  "title":"Logins",
+  "subtitle":"Percentage Loggin In",
+  "ranges":[100],
+  "measures":[100,43],
+  "markers":[54]
+  }
+  ],
+  "activity" : [
+  {
+  "title":"Tracker 1",
+  "ranges":[100],
+  "measures":[100,38],
+  "markers":[44]
+  },
+  {
+  "title":"Tracker 2",
+  "ranges":[100],
+  "measures":[100,45],
+  "markers":[35]
+  },
+  {
+  "title":"Tracker 3",
+  "ranges":[100],
+  "measures":[100,47],
+  "markers":[57]
+  }
+  ],
+  "outcomes" : [
+  {
+  "title":"BMI",
+  "subtitle":"Average Change",
+  "ranges":[2],
+  "measures":[2,0.6],
+  "markers":[0.5]
+  },
+  {
+  "title":"Diastolic BP",
+  "subtitle":"Average Change",
+  "ranges":[2],
+  "measures":[2,0.3],
+  "markers":[0.34]
+  },
+  {
+  "title":"Systolic BP",
+  "subtitle":"Average Change",
+  "ranges":[2],
+  "measures":[2,0.21],
+  "markers":[0.26]
+  }
+  ]  
+}
+
+
+]
